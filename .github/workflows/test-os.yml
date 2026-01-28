@@ -1,5 +1,8 @@
 name: Test OS
 
+permissions:
+  contents: read
+
 on:
   workflow_call:
     inputs:
